@@ -276,6 +276,8 @@ describe("parameters auto-validation", () => {
                 }
             }
 
+            
+            
             koaApp = createKoaServer(options).listen(3002, done);
         });
         after(done => koaApp.close(done));
